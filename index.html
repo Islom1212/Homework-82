@@ -6,8 +6,431 @@
     <link rel="stylesheet" href="/src/style.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="dark:bg-[#141416]">
+    <!--Menus section-->
+    <div
+      class="flex justify-between items-center py-[48px] px-[32px] lg:py-[56px] lg:px-[80px] xl:py-[48px] xl:px-[160px]"
+    >
+      <div class="flex gap-[8px]">
+        <img class="dark:hidden" src="/public/logotip.svg" alt="Logo" />
+        <img
+          class="hidden dark:flex"
+          src="/public/logotip-white.svg"
+          alt="white-logo"
+        />
+        <p class="body-1-bold font-bold dark:text-white">Fitness Pro</p>
+      </div>
+
+      <div class="hidden w-[1px] h-[48px] bg-gray-400 xl:flex"></div>
+
+      <div class="hidden items-center gap-[32px] xl:flex">
+        <p class="button-2 text-[#777E90]">Features</p>
+        <p class="button-2 text-[#777E90]">Pricing</p>
+        <p class="button-2 text-[#777E90]">Download</p>
+        <p class="button-2 text-[#777E90] flex items-center gap-[8px]">
+          Class <img src="/public/arrow-b-gray.svg" alt="arrow" />
+        </p>
+        <p class="button-2 text-[#777E90]">Lifestyle</p>
+      </div>
+
+      <img class="hidden xl:flex" src="/public/icons-tree.svg" alt="icons" />
+
+      <div class="flex gap-[40px]">
+        <button
+          class="hidden btn border-[#E6E8EC] border-2 text-[#23262F] button-2 font-medium lg:flex dark:text-white dark:border-[#777E90]"
+        >
+          Get free trial
+        </button>
+        <img class="xl:hidden" src="/public/menus.svg" alt="menus" />
+      </div>
+    </div>
+
+    <!--Header section-->
+    <div
+      class="bg-[url(/public/image-is-header.png)] xl:bg-[length:700px_700px] bg-no-repeat bg-bottom-left h-[960px] px-[32px] lg:py-[80px] lg:px-[80px] xl:py-[160px] xl:px-[160px] lg:bg-right lg:h-[600px] xl:bg-bottom-right xl:h-[693px] dark:bg-[url(/public/image-is-header-dark.png)]"
+    >
+      <div class="flex flex-col gap-[16px] lg:w-[416px]">
+        <p class="text-[#777E90] hairline-2-bold">
+          Train smarter. get stronger
+        </p>
+        <p class="text-[#23262F] headline-2 dark:text-white">
+          Simple fitness experience for everyone.
+        </p>
+        <p class="text-[#777E90] body-4 w-[304px] lg:w-full">
+          Track your workouts, get better results, and be the bestversion of
+          you. Less thinking, more lifting.
+        </p>
+        <div class="flex flex-col gap-[12px] lg:flex-row">
+          <button class="btn button-1 bg-[#FF592C] text-white">
+            Download App
+          </button>
+          <button class="btn button-1 border-2 border-gray-400 dark:text-white">
+            Book a Class
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--Mini section-->
+    <div class="flex flex-col items-center">
+      <p
+        class="caption-1-bold text-[#23262F] mb-[48px] lg:text-[18px] text-center dark:text-white"
+      >
+        We work with people from over the world
+      </p>
+      <div
+        class="snap-x snap-mandatory w-[90%] overflow-x-auto whitespace-nowrap gap-[64px] lg:gap-[32px] xl:gap-[12px]"
+      >
+        <img
+          class="inline-block snap-center h-[60px] lg:w-[192px] lg:h-[64px]"
+          src="/public/logo-02.svg"
+          alt="logo-02"
+        />
+        <img
+          class="inline-block snap-center h-[60px] lg:w-[192px] lg:h-[64px]"
+          src="/public/logo-01.svg"
+          alt="logo-01"
+        />
+        <img
+          class="inline-block snap-center h-[60px] lg:w-[192px] lg:h-[64px]"
+          src="/public/logo-03.svg"
+          alt="logo-03"
+        />
+        <img
+          class="inline-block snap-center h-[60px] lg:w-[192px] lg:h-[64px]"
+          src="/public/logo-04.svg"
+          alt="logo-04"
+        />
+        <img
+          class="inline-block snap-center h-[60px] lg:w-[192px] lg:h-[64px]"
+          src="/public/logo-05.svg"
+          alt="logo-05"
+        />
+        <img
+          class="inline-block snap-center h-[60px] lg:w-[192px] lg:h-[64px]"
+          src="/public/logo-06.svg"
+          alt="logo-06"
+        />
+      </div>
+    </div>
+
+    <!--Our Process section-->
+    <div class="flex flex-col items-center gap-[30px] mt-[64px]">
+      <p class="headline-3 dark:text-white">How it work</p>
+      <p
+        class="font-[400px] leading-[24px] tracking-[0%] text-center text-[19px] lg:w-[460px] dark:text-white"
+      >
+        Stacks is a production-ready library of stackable content blocks built
+        in React Native.
+      </p>
+
+      <div
+        class="snap-x snap-mandatory w-[90%] overflow-x-auto whitespace-nowrap flex gap-[64px]"
+      >
+        <div class="inline-block snap-center">
+          <div class="flex gap-[42px] lg:pl-[97px]">
+            <img src="/public/icon-is-jus.svg" alt="icon" />
+            <img src="/public/icon-is-jus-2.svg" alt="icon" />
+          </div>
+          <p
+            class="ml-[15px] Caption-2-bold text-[#777E90] mt-[32px] lg:text-center"
+          >
+            Step-1
+          </p>
+          <p
+            class="ml-[15px] body-2-bold py-[20px] lg:text-center dark:text-white"
+          >
+            Download
+          </p>
+          <p
+            class="ml-[34px] caption-1 text-[#353945] w-[232px] whitespace-normal lg:text-center dark:text-white"
+          >
+            Fitness Pro tracks your workouts, get better results, and be the
+            best version of you.
+          </p>
+        </div>
+        <div class="inline-block snap-center">
+          <div class="flex gap-[42px] lg:pl-[97px]">
+            <img src="/public/icon-is-jus-3.svg" alt="icon" />
+            <img src="/public/icon-is-jus-2.svg" alt="icon" />
+          </div>
+          <p
+            class="ml-[15px] Caption-2-bold text-[#777E90] mt-[32px] lg:text-center"
+          >
+            Step-2
+          </p>
+          <p
+            class="ml-[15px] body-2-bold py-[20px] lg:text-center dark:text-white"
+          >
+            Download
+          </p>
+          <p
+            class="ml-[34px] caption-1 text-[#353945] w-[232px] whitespace-normal lg:text-center dark:text-white"
+          >
+            Fitness Pro tracks your workouts, get better results, and be the
+            best version of you.
+          </p>
+        </div>
+        <div class="inline-block snap-center">
+          <div class="flex gap-[42px] lg:pl-[97px]">
+            <img src="/public/icon-is-jus-4.svg" alt="icon" />
+            <img src="/public/icon-is-jus-2.svg" alt="icon" />
+          </div>
+          <p
+            class="ml-[15px] Caption-2-bold text-[#777E90] mt-[32px] lg:text-center"
+          >
+            Step-3
+          </p>
+          <p
+            class="ml-[15px] body-2-bold py-[20px] lg:text-center dark:text-white"
+          >
+            Download
+          </p>
+          <p
+            class="ml-[34px] caption-1 text-[#353945] w-[232px] whitespace-normal lg:text-center dark:text-white"
+          >
+            Fitness Pro tracks your workouts, get better results, and be the
+            best version of you.
+          </p>
+        </div>
+        <div class="inline-block snap-center">
+          <div class="flex gap-[42px] lg:pl-[97px]">
+            <img src="/public/icon-is-jus-5.svg" alt="icon" />
+          </div>
+          <p
+            class="ml-[15px] Caption-2-bold text-[#777E90] mt-[32px] lg:text-center"
+          >
+            Step-4
+          </p>
+          <p
+            class="ml-[15px] body-2-bold py-[20px] lg:text-center dark:text-white"
+          >
+            Download
+          </p>
+          <p
+            class="ml-[34px] capt icon-1 text-[#353945] w-[232px] whitespace-normal lg:text-center dark:text-white"
+          >
+            Fitness Pro tracks your workouts, get better results , and be the
+            best version of you.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Stronger section-->
+    <div
+      class="bg-[url('/image-is-stronger.png')] bg-no-repeat bg-left-top h-[1110px] flex items-end justify-center mt-[50px] py-[32px] px-[64px] lg:h-[600px] lg:py-[77px] lg:pl-[80px] lg:mr-[80px] lg:items-start lg:justify-start lg:bg-right-top xl:py-[220px] xl:pl-[160px] xl:mr-[160px] xl:h-[800px] xl:bg-right xl:bg-contain"
+    >
+      <div class="flex flex-col gap-[32px] w-[416px]">
+        <p class="headline-1 dark:text-white">Train smarter, get stronger.</p>
+        <p class="body-1 text-[#777E90]">
+          Fitness Pro helps track your workouts, get better results, and be the
+          best version of you. Less thinking, more lifting 🔥🏀
+        </p>
+        <button
+          class="btn-b bg-[#FF592C] rounded-[100px] w-fit text-white button-1"
+        >
+          Start free trial
+        </button>
+      </div>
+    </div>
+
+    <!--Class section-->
+    <div
+      class="dark:bg-[#23262F] bg-[#F4F5F6] mt-[50px] flex flex-col items-center justify-start lg:flex-row lg:h-[900px] xl:py-[48px] xl:px-[48px] h-[1267px]"
+    >
+      <img
+        class="lg:h-[600px] xl:h-[748px] dark:hidden"
+        src="/public/icon-is-watch-light.png"
+        alt="watch-icon"
+      />
+      <img
+        class="lg:h-[600px] xl:h-[748px] hidden dark:flex"
+        src="/public/icon-is-watch.png"
+        alt="watch-icon"
+      />
+      <div
+        class="flex flex-col items-center gap-[24px] dark:bg-[#141416] py-[32px] px-[32px] xl:w-[544px] lg:w-[390px]"
+      >
+        <p class="dark:text-white headline-2">Book a class</p>
+        <p class="body-2 text-[#777E90] text-start w-[267px]">
+          Track your workouts, get better results, and be the best version of
+          you. Less thinking, more lifting.
+        </p>
+        <div class="flex gap-[24px] w-[248px]">
+          <img src="/public/class-per.svg" alt="icon" />
+          <p class="flex flex-col gap-[4px] body-2-bold dark:text-white">
+            For the beginners
+            <span class="text-[#777E90]"
+              >You never workout before, it’s now a good start</span
+            >
+          </p>
+        </div>
+        <div class="flex gap-[24px] w-[248px]">
+          <img src="/public/class-per-2.svg" alt="icon" />
+          <p class="flex flex-col gap-[4px] body-2-bold dark:text-white">
+            For the beginners
+            <span class="text-[#777E90]"
+              >You never workout before, it’s now a good start</span
+            >
+          </p>
+        </div>
+        <div class="flex gap-[24px] w-[248px]">
+          <img src="/public/class-per-3.svg" alt="icon" />
+          <p class="flex flex-col gap-[4px] body-2-bold dark:text-white">
+            For the beginners
+            <span class="text-[#777E90]"
+              >You never workout before, it’s now a good start</span
+            >
+          </p>
+        </div>
+        <p class="caption-bold text-center w-[281px] text-[#777E90]">
+          10% Discount if you’re already using the Fitness Pro on App Store
+        </p>
+        <button
+          class="flex items-center justify-center gap-[12px] text-white bg-[#FF592C] btn-b rounded-[100px] w-[70%] lg:w-fit lg:ml-[40%]"
+        >
+          Book a class <img src="/public/arrow-r.svg" alt="arrow" />
+        </button>
+      </div>
+    </div>
+
+    <!--experience section-->
+    <div class="flex flex-col items-center py-[64px] px-[32px]">
+      <div class="flex flex-col items-start lg:items-center">
+        <p class="text-[#777E90] hairline-2 lg:text-center">
+          New workouts added every week
+        </p>
+        <p
+          class="headline-2 lg:text-center dark:text-white mt-[8px] mb-[32px] lg:w-[550px]"
+        >
+          A new fitness experience for everyone
+        </p>
+        <button class="button-1 btn-b bg-[#FF592C] rounded-[90px] text-white">
+          Contact Us
+        </button>
+      </div>
+      <div
+        class="flex flex-col items-start mt-[64px] lg:flex-row lg:items-center"
+      >
+        <div class="flex flex-col gap-[32px] lg:w-[245px] xl:w-[268px]">
+          <img class="w-[48px] h-[48px]" src="/public/col.svg" alt="icon" />
+          <p class="body-2-bold dark:text-white">
+            Keep track of calories and macros
+          </p>
+          <p class="text-[#777E90] caption-1">
+            Fitness Pro helps track your workouts, get better results, and be
+            the best version of you. Less thinking!
+          </p>
+        </div>
+
+        <div
+          class="bg-gray-400 h-[1px] w-full my-[24px] lg:w-[1px] lg:h-[300px] lg:my-[0px] lg:mx-[24px] xl:mx-[83px]"
+        ></div>
+
+        <div class="flex flex-col gap-[32px] lg:w-[245px] xl:w-[268px]">
+          <img class="w-[48px] h-[48px]" src="/public/col-2.svg" alt="icon" />
+          <p class="body-2-bold dark:text-white">
+            Keep track of calories and macros
+          </p>
+          <p class="text-[#777E90] caption-1">
+            Fitness Pro helps track your workouts, get better results, and be
+            the best version of you. Less thinking!
+          </p>
+        </div>
+
+        <div
+          class="bg-gray-400 h-[1px] w-full my-[24px] lg:w-[1px] lg:h-[300px] lg:my-[0px] lg:mx-[24px] xl:mx-[83px]"
+        ></div>
+
+        <div class="flex flex-col gap-[32px] lg:w-[245px] xl:w-[268px]">
+          <img class="w-[48px] h-[48px]" src="/public/col-3.svg" alt="icon" />
+          <p class="body-2-bold dark:text-white">
+            Keep track of calories and macros
+          </p>
+          <p class="text-[#777E90] caption-1">
+            Fitness Pro helps track your workouts, get better results, and be
+            the best version of you. Less thinking!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Powerful section-->
+    <div
+      class="flex flex-col gap-[60px] lg:gap-[74px] xl:gap-[118px] px-[32px] lg:items-center lg:px-[80px] xl:px-[160px]"
+    >
+      <div class="flex flex-col lg:flex-row lg:gap-[236px] xl:gap-[472px]">
+        <p class="hairline-1 text-[#B1B5C3] text-start">Our Services</p>
+        <p
+          class="headline-2 dark:text-[#FCFCFD] flex flex-col gap-[20px] text-start lg:hidden"
+        >
+          Our Features
+          <span class="body-2 text-[#777E90] text-start"
+            >Stacks is a production-ready library of stackable content blocks
+            built in React Native.</span
+          >
+        </p>
+
+        <p
+          class="headline-2 dark:text-[#FCFCFD] flex-col gap-[20px] text-start hidden lg:flex w-[412px]"
+        >
+          Simple, powerful, easy-to-use
+          <span class="body-2 text-[#777E90] text-start"
+            >Track your workouts, get better results, and be the best version of
+            you. Less thinking, more lifting.</span
+          >
+        </p>
+      </div>
+
+      <div class="flex flex-col lg:flex-row-reverse gap-[64px] lg:gap-[160px]">
+        <img
+          class="lg:w-[450px] xl:hidden"
+          src="/public/img-is-features.png"
+          alt="image"
+        />
+
+        <img class="hidden xl:flex" src="/public/scene-1.png" alt="image" />
+
+        <div class="flex flex-col gap-[48px]">
+          <div class="flex flex-col gap-[16px]">
+            <img class="w-[42px]" src="/public/features.svg" alt="icon" />
+
+            <p class="mt-[8px] dark:text-[#FCFCFD]">
+              Intuitive and clean design
+            </p>
+            <p class="caption-1 text-[#777E90] lg:w-[193px]">
+              Track your workouts, get better results, and be the best version
+              of you.
+            </p>
+          </div>
+          <div class="flex flex-col gap-[16px]">
+            <img class="w-[42px]" src="/public/features-2.svg" alt="icon" />
+
+            <p class="mt-[8px] dark:text-[#FCFCFD]">
+              Intuitive and clean design
+            </p>
+            <p class="caption-1 text-[#777E90] lg:w-[193px]">
+              Track your workouts, get better results, and be the best version
+              of you.
+            </p>
+          </div>
+          <div class="flex flex-col gap-[16px]">
+            <img class="w-[42px]" src="/public/features-3.svg" alt="icon" />
+
+            <p class="mt-[8px] dark:text-[#FCFCFD]">
+              Intuitive and clean design
+            </p>
+            <p class="caption-1 text-[#777E90] lg:w-[193px]">
+              Track your workouts, get better results, and be the best version
+              of you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--TS-->
-    <script src="/src/main.ts"></script>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

@@ -7,11 +7,17 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
+		"tailwindcss": "^4.1.11",
 		"typescript": "~5.8.3",
 		"vite": "^6.3.5"
 	},
 	"dependencies": {
-		"@tailwindcss/vite": "^4.1.11",
-		"tailwindcss": "^4.1.11"
-	}
+		"@tailwindcss/vite": "^4.1.11"
+	},
+	"version": "1.0.0",
+	"description": "✅ UI chizib olish by Behruz 👍     ✅ elementlarni select qilib olish 👍     ✅ handleCell funksiyasini yozish 👍     ✅ checkWinner funksiyasini yozish     ✅ xar safar rerender bolganda next-player ni chizib ketish kerak 👍     ✅ handleReset funksiyasini qilish 👍     ✅ refresh bolganda malumotlarni saqlash     ✅ Player type ni yozish 👍     ✅ Durrang xolatini qilish  kerak 👍",
+	"main": "vite.config.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
 }

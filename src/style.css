@@ -1,1 +1,67 @@
 @import "tailwindcss";
+
+/*TEXTS*/
+
+.hero {
+  @apply font-[700px] text-[96px] leading-[96px] tracking-[-2%];
+}
+.headline-1 {
+  @apply font-[700px] text-[64px] leading-[64px] tracking-[-2%];
+}
+.headline-2 {
+  @apply font-[700px] text-[48px] leading-[56px] tracking-[-2%];
+}
+.headline-3 {
+  @apply font-[700px] text-[40px] leading-[48px] tracking-[-1%];
+}
+.headline-4 {
+  @apply font-[700px] text-[32px] leading-[40px] tracking-[-1%];
+}
+
+.body-1 {
+  @apply font-[400px] text-[24px] leading-[32px] tracking-[-1%];
+}
+.body-1-bold {
+  @apply font-[600px] text-[24px] leading-[32px] tracking-[0%];
+}
+.body-2 {
+  @apply font-[400px] text-[16px] leading-[24px] tracking-[0%];
+}
+.body-2-bold {
+  @apply font-[600px] text-[16px] leading-[24px] tracking-[0%];
+}
+
+.caption-1 {
+  @apply font-[400px] text-[14px] leading-[24px] tracking-[0%];
+}
+.caption-1-bold {
+  @apply font-[600px] text-[16px] leading-[24px] tracking-[0%];
+}
+.caption-2 {
+  @apply font-[400px] text-[12px] leading-[20px] tracking-[0%];
+}
+.caption-2-bold {
+  @apply font-[600px] text-[12px] leading-[20px] tracking-[0%];
+}
+
+.hairline-1 {
+  @apply font-[700px] text-[16px] leading-[16px] tracking-[0%];
+}
+.hairline-2 {
+  @apply font-[700px] text-[12px] leading-[12px] tracking-[0%];
+}
+
+.button-1 {
+  @apply font-[700px] text-[16px] leading-[16px] tracking-[0%];
+}
+.button-2 {
+  @apply font-[700px] text-[14px] leading-[16px] tracking-[0%];
+}
+
+/* BTNS */
+.btn {
+  @apply py-[12px] px-[16px] rounded-[90px];
+}
+.btn-b {
+  @apply py-[16px] px-[24px];
+}
